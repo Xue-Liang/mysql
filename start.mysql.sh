@@ -1,0 +1,2 @@
+#!/bin/sh
+/home/mysql/programs/mysql-5.7.16/bin/mysqld --user=mysql --basedir=/home/mysql/programs/mysql-5.7.16 --datadir=/home/mysql/programs/mysql-5.7.16/data --big-tables=TRUE --long-query-time=5 --log-output=FILE --slow-query-log-file=/home/mysql/programs/mysql-5.7.16/logs/slow-queries.log>/home/mysql/programs/mysql-5.7.16/logs/mysqld.log >/home/mysql/programs/mysql-5.7.16/logs/mysqld.log 2>&1 &
